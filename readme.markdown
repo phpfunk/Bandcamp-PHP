@@ -16,12 +16,12 @@ PHP 5+, json_decode(), Bandcamp API Key
     
 ### Get Discograpy
     $bandcamp = new Bandcamp('YOUR KEY');
-    $band = $bandcamp->get('discography','BAND ID || BAND URL');
+    $discography = $bandcamp->get('discography','BAND ID || BAND URL');
     
 ### Get Album
     $bandcamp = new Bandcamp('YOUR KEY');
-    $band = $bandcamp->get('album','ALBUM ID');
+    $album = $bandcamp->get('album','ALBUM ID');
     
 ### Get Track
     $bandcamp = new Bandcamp('YOUR KEY');
-    $band = $bandcamp->get('track','TRACK ID');
+    $track = $bandcamp->get('track','TRACK ID');
