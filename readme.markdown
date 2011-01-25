@@ -7,7 +7,7 @@ PHP 5+, json_decode(), Bandcamp API Key
 ### API Documentation
 [http://bandcamptech.wordpress.com/2010/05/15/bandcamp-api/](http://bandcamptech.wordpress.com/2010/05/15/bandcamp-api/)
 
-### Main Methods from Bitly API
+### Methods
 1. get
 
 ### Get Band
