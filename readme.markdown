@@ -8,7 +8,10 @@ PHP 5+, json_decode(), Bandcamp API Key
 [http://bandcamptech.wordpress.com/2010/05/15/bandcamp-api/](http://bandcamptech.wordpress.com/2010/05/15/bandcamp-api/)
 
 ### Methods
-1. get
+1. convert_time (protected)
+2. format_num (protected)
+3. get (public)
+4. get_all (public)
 
 ### Get Band
     $bandcamp = new Bandcamp('YOUR KEY');
@@ -25,3 +28,7 @@ PHP 5+, json_decode(), Bandcamp API Key
 ### Get Track
     $bandcamp = new Bandcamp('YOUR KEY');
     $track = $bandcamp->get('track','TRACK ID');
+    
+### Get All - This will return everything formatted as an array with add-ons (release_date_formatted && duration_formatted)
+    $bandcamp = new Bandcamp('YOUR KEY');
+    $track = $bandcamp->get_all('BAND ID || BAND URL');
